@@ -21,5 +21,5 @@ http.createServer(function (req, res) {
   } else {
     res.end("404");
   }
-}).listen(process.env.PORT, process.env.IP);
+}).listen(8080);
 console.log('Server running!');
